@@ -14,35 +14,9 @@
 - 单进程运行；退出后不保留后台服务。
 - 配置仅保存在本机 `%LOCALAPPDATA%\EyeRest\settings.ini`。
 
-## 构建环境
-
-- Windows 10 或 Windows 11
-- Visual Studio 2022
-- 安装工作负载“使用 C++ 的桌面开发”，并包含 CMake 工具
-
-在项目目录打开 PowerShell，运行：
-
-```powershell
-.\build.ps1
-```
-
-完成后程序通常位于：
-
-```text
-build\Release\EyeRest.exe
-```
-
-本项目已提供编译好的 64 位版本：
-
-```text
-dist\EyeRest.exe
-```
-
-也可以使用 Visual Studio 直接打开本目录中的 `CMakeLists.txt` 后构建。
-
 ## 使用方法
 
-启动 `EyeRest.exe` 后，程序仅显示在任务栏通知区域：
+打开dist文件夹，启动 `EyeRest.exe` 后，程序仅显示在任务栏通知区域：
 
 - 双击托盘图标打开设置。
 - 右键托盘图标可以立即休息、暂停、切换严格模式或退出。
