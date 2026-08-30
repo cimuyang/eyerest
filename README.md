@@ -1,7 +1,7 @@
 # 眺望 · EyeRest
 
 一个简洁、离线、低资源占用的 Windows 20-20-20 护眼提醒工具。
-[](https://github.com/cimuyang/eyerest/blob/main/Introduction.png)
+![](https://github.com/cimuyang/eyerest/blob/main/Introduction.png)
 
 ## 已实现
 
